@@ -784,7 +784,7 @@ void user_app_on_init(void)
 		17, GAP_AD_TYPE_COMPLETE_LIST_128_BIT_UUID,  0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
 	  
 		// Bluetooth Device Name
-		9 , GAP_AD_TYPE_COMPLETE_NAME,             'C','o','d','e','L','e','s','s'
+		6 , GAP_AD_TYPE_COMPLETE_NAME,               'S', 'p', 'o', 'r', 'a'
 	};
 	
 	// Insert the CodeLess service uuid into advertisement data (must reverse order):
